@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.component-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 125px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .component-container {
+    margin-top: 250px;
+  }
+}
+
+.google-logo {
+  width: 150px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 432px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+}
+.suggestions-container {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+  width: 300px;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .suggestions-container {
+    margin-top: 48px;
+    width: 600px;
+  }
+}
+.input-container {
+  display: flex;
+  margin: 20px;
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .search-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+.search-input {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  margin-left: 16px;
+
+  outline: none;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    font-size: 20px;
+    margin-left: 8px;
+    height: 40px;
+  }
+}
+.suggestions-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .suggestions-list {
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+  }
+}
